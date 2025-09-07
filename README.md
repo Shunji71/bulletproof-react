@@ -66,3 +66,21 @@ Contributions are always welcome! If you have any ideas, suggestions, fixes, fee
 ## License
 
 [MIT](/LICENSE)
+
+# 起動方法
+cd bulletproof-react
+
+## アプリ配下へ（ここが大事）
+cd apps/react-vite
+
+## 環境変数の雛形コピー
+cp .env.example .env
+
+## 依存をインストール（READMEは Yarn 1.22+ を前提）
+npm install
+
+## 開発サーバ起動
+npm run dev
+
+
+## ブラウザ: http://localhost:3000
